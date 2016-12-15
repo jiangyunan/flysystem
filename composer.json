@@ -1,0 +1,24 @@
+{
+    "name": "jiangyunan/flysystem",
+    "description": "Laravel 文件管理的OSS扩展",
+    "keywords": [
+        "filesystem", "filesystems", "files", "storage", "oss"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jiangyunan",
+            "email": "jiang_yun_an@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "aliyuncs/oss-sdk-php": "*",
+        "league/flysystem": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jiangyunan\\Flysystem\\": "src/"
+        }
+    }
+}
